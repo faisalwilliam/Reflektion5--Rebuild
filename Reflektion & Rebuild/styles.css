@@ -1,0 +1,310 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+height: 742px;
+flex-shrink: 0;
+background-image: url('Imag/backgr1.jfif');
+}
+
+    
+
+header {
+   
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+   
+
+    background-image: url('Imag/back2.jfif');
+    
+    
+    
+}
+header h1 {
+    margin: 0;
+}
+header h2 {
+    font-size: 1.2em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 65px;
+border: 1px solid;   
+
+}
+nav a {
+    text-decoration: none;
+    color: #ebf0f1;
+    
+
+}
+main {
+    padding: 20px;
+    
+}
+section {
+    margin-bottom: 20px;
+    padding-top: 10%;
+    color: #fff;
+    margin-left: 20%;
+   color:  rgb(231, 224, 231);
+  margin-right:  0px 20px;
+  
+   
+
+}
+ h3{
+    padding-left:  40px;
+    color: #e5edee;
+}
+h2{
+    padding-left:  100px;
+    color: #fff;
+}
+h1{
+    padding-left:  100px;
+    color: #fff;
+}
+
+
+p{
+    padding-left:  100px;
+    color: #fff;
+}
+span{
+    padding-left: 7%;
+}
+
+
+.Developer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+     /* Media Queries för olika skärmstorlekar */
+      
+     @media (max-width: 768px) 
+     { body { width: 10%; height: auto; }   
+    
+      
+
+}
+
+.profile img {
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 30%;
+    margin-top: 2%;
+ 
+}
+
+.about img {
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.img{
+  
+    display: flex;
+    margin-left: 1%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    
+
+
+ 
+}
+.img1{
+  
+    display: flex;
+    margin-left: 1%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+   
+    
+}
+
+
+
+.Developer-text {
+    text-align: left;
+
+    margin-right: 60%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+    padding-left:  5%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    color: rgb(235, 229, 234);
+  
+  box-shadow: 0 0 20px rgba(228, 223, 226, 0.925);
+  border-radius: 10px;
+  margin-right: 20%;
+  
+
+}
+.contact ul{
+    color: #f0f0f0;
+    margin-left: 25%;
+}
+.contact h2 {
+    margin-left: 20%;
+}
+.contact p{
+    margin-left: 20%;
+}
+
+
+.skills ul {
+    list-style: disc;
+    padding-right: 10%;
+    
+    color: #f0f0f0;
+    padding-bottom: 50%;
+}
+
+img{
+   
+width: 328px;
+height: 288px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #eae4eb;
+padding-left: 10px;
+margin-left: 10px 20px;
+
+
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+
+}
+.img #m1{
+    margin: top 50%;
+    margin-left:   50px;
+}
+.img #m2{
+    margin: top 50%;
+    margin-left:  50px;
+}
+.img #m3{
+    margin: top 50%;
+    margin-left:  50px;
+}
+  .img1 #m4{
+    margin: top 50%;
+    margin-left:   50px;
+}
+.img1 #m5{
+    margin: top 50%;
+    margin-left:  50px;
+}
+.img1 #m6{
+    margin: top 50%;
+    margin-left:  50px;
+    
+}
+
+
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+   
+    margin-left: 20%;
+    margin-bottom: 5px;
+    padding-left:  10%;
+    margin-top:  2%;
+   padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    color: rgb(237, 238, 245);
+    
+    justify-items: center;
+    position: fixed;
+  
+  box-shadow: 0 0 20px rgba(209, 214, 214, 0.925);
+  border-radius: 10px;
+
+
+}
+footer {
+  
+    background-image: url('Imag/back2.jfif');  /* bakgrundsfärgen för header */
+  
+color: #bfbccc; 
+text-align: center; 
+padding: 10px; 
+position: fixed; 
+bottom: 0; 
+width: 100%; /* Gör fotnoten lika bred som skärmen */
+box-shadow: 00 20px rgba(158, 5, 189, 0.18);
+border-radius: 20px;
+
+}
+
+.btn {
+    background-color: #054d23;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+    
+}
+    
+.btn:hover {
+    background-color: #555;
+}
+
+.about p {
+  
+    margin-right: 50%;
+    margin-left: 0%;
+    margin-bottom: 15%;
+    padding-left:  5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    color: rgb(225, 227, 231);
+    display: flex;
+    justify-items: center;
+    font-family: "Luxurious Script";
+  
+  box-shadow: 0 0 20px rgba(234, 236, 236, 0.925);
+  border-radius: 10px;
+    
+  }
+  .social {
+    color: #054d23;
+    background-color: #18887f;
+
+   
+   }
+ 
+   button{
+    color: #010208;
+    background-color: #054d23;
+   }
